@@ -52,7 +52,7 @@ export default function PlansCard() {
                         <span>25% DE DESCONTO</span>
                     </div>
                     <div className='btn-choose'>
-                        <button>QUERO ESSE</button>
+                        <button>QUERO ESSE<a href="https://pay.hotmart.com/N87709931O" /></button>
                     </div>
                 </div>
                 <div className='plans-card'>
