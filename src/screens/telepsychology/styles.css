@@ -1,0 +1,618 @@
+.banner-telepsychology {
+    height: 600px;
+    position: relative;
+}
+
+.banner-telepsychology-responsive {
+    display: none;
+}
+
+.banner-telepsychology .img-banner {
+    position: absolute;
+    right: 0;
+    max-width: 750px;
+    max-height: 600px;
+}
+
+.banner-telepsychology .img-header {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    font-size: 18px;
+}
+
+.box-link-telemedicina {
+    width: 100%;
+    position: relative;
+}
+
+.link-telemedicina {
+    position: absolute;
+    top: 28px;
+    left: 35%;
+
+    color: #2799D0;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.btn-schedule-telepsicologia {
+    position: absolute;
+    top: 18px;
+    right: 26px;
+
+    width: 264px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: transparent;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #0B70E3;
+    font-family: "Poppins";
+    font-size: 18.62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-schedule-telepsicologia:hover {
+    background-color: #0B70E3;
+    color: white;
+}
+
+.content-texts-header-telepsychology {
+    width: 43%;
+    position: absolute;
+    top: 15%;
+    left: 200px;
+    z-index: 2;
+}
+
+.content-texts-header-telepsychology h1 {
+    margin-bottom: .5em;
+    color: #0B70E3;
+    font-family: "Poppins";
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content-texts-header-telepsychology span {
+    margin: 0;
+    margin-left: 10px;
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.content-texts-header-telepsychology svg {
+    margin: 0;
+    color: #0B70E3;
+    font-size: 20px;
+}
+
+
+.texts-header-telepsychology {
+    display: flex;
+    align-items: center;
+    gap: .8em;
+    margin-bottom: 1em;
+}
+
+.btn-consult-now-telepsychology {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+
+    width: 385px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: transparent;
+    background-color: #012E40;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18.62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-consult-now-telepsychology:hover {
+    background-color: #0B70E3;
+}
+
+.camada {
+    position: absolute;
+    bottom: -60px;
+}
+
+.plans-content-telepsychology {
+    display: flex;
+    flex-direction: column;
+}
+
+.plans-content-telepsychology h1 {
+    color: #0B70E3;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1em;
+    margin-bottom: 0;
+}
+
+.plans-card-telepsychology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    width: 50%;
+    border-radius: 29px;
+    border: 0.5px solid #999;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.plans-card-telepsychology:hover {
+    background-color: #012E40;
+}
+
+.plans-card-telepsychology:hover .plans-text-you-gold h2 {
+    color: white;
+}
+
+.plans-card-telepsychology:hover .plans-text-you-gold h3 {
+    color: white;
+}
+
+.plans-card-telepsychology:hover .plans-text-you-gold svg {
+    color: white;
+}
+
+.plans-card-telepsychology:hover .text-icons-gold span {
+    color: white;
+}
+
+.plans-card-telepsychology img {
+    position: absolute;
+    top: -40px;
+    right: -20px;
+}
+
+.plans-card-telepsychology h2 {
+    color: #0B70E3;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.plans-card-telepsychology span {
+    color: #0B70E3;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.plans-card-telepsychology button {
+    position: absolute;
+    bottom: -35px;
+    width: 264px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: transparent;
+    background: #012E40;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18.62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plans-card-telepsychology button:hover {
+    background-color: #0B70E3;
+}
+
+.plans-text-you-gold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #0B70E3;
+    border-radius: 53px;
+    padding: 5px;
+    text-align: center;
+}
+
+.plans-text-you-gold h2 {
+    margin: 0;
+    color: #012E40;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.plans-text-you-gold h3 {
+    margin: 0;
+    color: #012E40;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.plans-text-you-plus svg {
+    margin: 0;
+}
+
+.plans-content-telepsychology .title-plans-responsive {
+    margin: 2em;
+}
+
+.plans-value-gold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans-value-gold h2 {
+    color: #0B70E3;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.plans-value-gold h3 {
+    color: #0B70E3;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-icons-gold {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.text-icons-gold span {
+    margin: 0;
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-icons-gold svg {
+    margin: 0;
+    color: #0B70E3;
+}
+
+.plans-anual-gold {
+    border-radius: 53px;
+    border: 1px solid #999;
+    padding: 1em;
+}
+
+.mockup-telepsychology {
+    background-color: #012e40;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 0;
+    margin-top: 3em;
+}
+
+.mockup-telepsychology img {
+    position: absolute;
+    height: 700px;
+    top: 0;
+}
+
+.texts-mockup-telepsychology{
+    width: 60%;
+    margin-right: 3em;
+    position: relative;
+    top: 10%;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.texts-mockup-telepsychology h1 {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.texts-mockup-telepsychology p {
+    color: #D9D9D9;
+    font-family: "Poppins";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.circle-telepsychology {
+    margin: 0;
+    background-color: rgba(0, 196, 204, 0.10);
+    width: 400px;
+    height: 550px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    right: -8em;
+    top: 5%;
+}
+
+.title-questions-telepsychology {
+    margin: 5em;
+    text-align: center;
+}
+
+.title-questions-telepsychology h1 {
+    font-family: "Poppins";
+    font-size: 41px;
+    font-weight: 700;
+    line-height: normal;
+    color: #0B70E3;
+}
+
+.floating-button-whatsapp {
+    z-index: 4;
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.floating-button-whatsapp img {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1023px) {
+    .banner-telepsychology {
+        display: none;
+    }
+
+    .banner-telepsychology-responsive {
+        background-image: url(../../assets/banner-telepsicologia-responsive.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 488px;
+
+        display: flex;
+        position: relative;
+        margin: 0;
+    }
+
+    .box-telepsychology-responsive {
+        margin-left: 2em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .box-telepsychology-responsive h1 {
+        margin: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: "Poppins";
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 115%;
+    }
+
+    .texts-header-list {
+        margin-left: 0;
+    }
+
+    .texts-responsive-telepsychology {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .texts-responsive-telepsychology span {
+        margin: 0;
+        color: #FFF;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .texts-responsive-telepsychology svg {
+        margin: 0;
+        color: #0B70E3;
+    }
+
+    .btn-schedule-responsive {
+        width: 208px;
+        height: 49px;
+        flex-shrink: 0;
+        border-radius: 45px;
+        border: transparent;
+        background-color: #FFF;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+        color: #0B70E3;
+        font-family: "Poppins";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .btn-schedule-responsive:hover {
+        background-color: #0B70E3;
+        color: white;
+    }
+
+    .btn-consult-responsive {
+        width: 315px;
+        height: 49px;
+        flex-shrink: 0;
+        border-radius: 45px;
+        border: transparent;
+        background: #012E40;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .btn-consult-responsive:hover {
+        background-color: #0B70E3;
+    }
+
+    .plans-content-telepsychology .title-plans-responsive {
+        font-size: 31px;
+        margin: .8em;
+    }
+
+    .plans-card-telepsychology {
+        width: 80%;
+    }
+
+    .plans-card-telepsychology .title-gold-responsive {
+        font-size: 25px;
+        margin-top: 2em !important;
+        margin: 0;
+    }
+
+    .plans-card-telepsychology h2 {
+        font-size: 25px;
+    }
+
+    .plans-card-telepsychology h3 {
+        font-size: 20px;
+    }
+
+    .plans-card-telepsychology img {
+        top: -80px;
+    }
+
+    .text-icons-gold {
+        gap: 0;
+    }
+
+    .text-icons-gold span {
+        font-size: 12px;
+
+    }
+
+    .title-questions-telepsychology {
+        margin: 0em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .title-questions-telepsychology h1 {
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .mockup-telepsychology {
+        height: 1000px;
+        position: relative;
+    }
+
+    .mockup-telepsychology img {
+        top: 45%;
+    }
+    .texts-mockup-telepsychology{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mockup-telepsychology {
+        height: 850px;
+        position: relative;
+    }
+
+    .mockup-telepsychology img {
+        top: 33%;
+        left: -10%;
+    }
+    .texts-mockup-telepsychology{
+        width: 85%;
+        margin-right: 1em;
+        top: 5%;
+    }
+
+    .texts-mockup-telepsychology h1{
+        font-size: 24px;
+    }
+    .texts-mockup-telepsychology p{
+        font-size: 16px;
+    }
+
+    .floating-button-whatsapp img {
+        width: 70px;
+        height: 70px;
+    }
+}
