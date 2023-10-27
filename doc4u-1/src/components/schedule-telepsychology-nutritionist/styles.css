@@ -1,0 +1,249 @@
+.dialog-schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MuiDialog-paper {
+    border-radius: 30px !important;
+}
+
+.dialog-schedule .input-step1 {
+    margin: 0;
+    margin-bottom: 1em;
+    width: 700px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 4px solid #0B70E3;
+    background-color: #FFF;
+    padding: 10px;
+    color: #999;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dialog-schedule .input-step1:focus {
+    outline: none;
+    border: 4px solid #2799D0;
+}
+
+.dialog-schedule h1 {
+    color: #0B70E3;
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.checkbox-dialog {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.checkbox-dialog input {
+    margin: 0;
+    stroke-width: 4px;
+    stroke: #0B70E3;
+}
+
+.dialog-schedule h1 {
+    margin: 10px;
+}
+
+.checkbox-dialog {
+    margin: 1em;
+}
+
+.checkbox-dialog span {
+    margin: 0;
+    color: #999;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dialog-schedule button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 700px;
+    border-radius: 62px;
+    border: transparent;
+    background: #0B70E3;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dialog-schedule svg {
+    margin: 0;
+}
+
+.input-description {
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 700px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 4px solid #0B70E3;
+    background: #FFF;
+    color: #999;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input-description:focus {
+    outline: none;
+    border: 4px solid #2799D0;
+}
+
+.form-step2 h5 {
+    color: #0B70E3;
+    font-family: "Poppins";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form-step2 p {
+    margin-bottom: 2em;
+    color: #0B70E3;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .dialog-schedule {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    .dialog-schedule .input-step1 {
+        width: 250px;
+        height: 38px;
+        font-size: 12px;
+    }
+    .MuiDialog-paper {
+        width: 350px !important;
+        height: 500px !important; 
+
+    }
+
+    .dialog-schedule h1 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .content-checkbox-dialog{
+        width: 300px;
+        margin: 0;
+    }
+
+    .checkbox-dialog span{
+        font-size: 12px;
+    }
+
+    .dialog-schedule button{
+        margin: 0;
+        width: 280px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .form-step2{
+        width: 280px;
+        margin: 0;
+    }
+
+    .form-step2 h5 {
+        font-size: 15px;
+    }
+    .form-step2 p {
+        font-size: 15px;
+    }
+
+    .input-description{
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .dialog-schedule {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .dialog-schedule .input-step1 {
+        width: 300px;
+        height: 38px;
+        font-size: 12px;
+    }
+    .MuiDialog-paper {
+        width: 400px !important;
+    }
+
+    .dialog-schedule h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .content-checkbox-dialog{
+        width: 350px;
+        margin: 0;
+    }
+
+    .checkbox-dialog span{
+        font-size: 15px;
+    }
+
+    .dialog-schedule button{
+        margin: 0;
+        width: 300px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .form-step2{
+        width: 360px;
+        margin: 0;
+    }
+
+    .form-step2 h5 {
+        font-size: 15px;
+    }
+    .form-step2 p {
+        font-size: 15px;
+    }
+
+    .input-description{
+        width: 300px;
+        height: 60px;
+        font-size: 18px;
+    }
+}

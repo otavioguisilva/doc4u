@@ -1,0 +1,33 @@
+.header-responsive {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .header-responsive {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+        background-color: #FFF;
+        box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .header-responsive img {
+        width: 139px;
+        height: 45px;
+    }
+
+    .header-responsive a {
+        font-size: 13px;
+        color: #8EC742;
+        text-align: center;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+}
